@@ -1,0 +1,62 @@
+create table person(
+ID int UNIQUE NOT NULL,
+FirstName varchar(20) NOT NULL,
+UserName varchar(20) UNIQUE NOT NULL,
+Age int NOT NULL
+);
+
+
+insert into  values();
+
+select * from  ;
+
+create table cont (
+SerialNumber int,
+primary key(SerialNumber),
+Name varchar(20) not null unique,
+Contact varchar(10) unique,
+eMail  varchar(50) unique,
+Grp varchar(10) not null
+);
+
+\\aCCESIBILITY SERVICE
+adb -d shell pm grant com.oasisfeng.greenify android.permission.WRITE_SECURE_SETTINGS
+
+//Doze on Go
+adb -d shell pm grant com.oasisfeng.greenify android.permission.DUMP
+
+//WAKE UP TRACKER
+adb -d shell pm grant com.oasisfeng.greenify android.permission.READ_LOGS
+
+//WAKEUP CUTTOFF
+adb -d shell pm grant com.oasisfeng.greenify android.permission.READ_LOGS
+adb -d shell pm grant com.oasisfeng.greenify android.permission.WRITE_SECURE_SETTINGS
+
+//FORCE STOP
+adb -d shell am force-stop com.oasisfeng.greenify
+
+//ADB commands
+adb shell pm list packages
+
+
+//To remove system volume information...
+rmdir "system volume information" /s /q
+
+
+
+// Python default locattion
+C:\Users\admin\AppData\Local\Programs\Python\Python36\Doc
+
+// Atom default location
+C:\Users\admin\github
+
+
+
+//Steps to upgrade:
+
+1.Once the ISO download is completed.
+2.Right click on the ISO file and open with 'Windows Explore'.
+3.Run setup.exe file.
+4.Accept the license.
+5.Select the option 'Keep files and applications', so that you don't loose data.
+6.Windows 10 installation will be in process.
